@@ -55,3 +55,16 @@ ng g c admin/admin-orders
 ng g c login
 
 sudo npm install --save @ng-bootstrap/ng-bootstrap
+
+sudo npm install -g firebase-tools
+
+firebase init
+---Hosting
+What do you want to use as your public directory? oshop
+n, n, n, n(just select n for all question..)
+
+ng build --prod
+firebase deploy
+
+
+Hosting URL: https://oshop-e5197.web.app
